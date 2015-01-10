@@ -1,6 +1,6 @@
 {
   "name": "wp-down",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Download WordPress releases",
   "main": "index.js",
   "dependencies": {
