@@ -1,0 +1,27 @@
+{
+  "name": "wp-down",
+  "version": "0.0.0",
+  "description": "Download WordPress releases",
+  "main": "index.js",
+  "dependencies": {
+    "download": "^3.3.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/crissdev/wp-down.git"
+  },
+  "keywords": [
+    "WordPress",
+    "download"
+  ],
+  "author": "crissdev <criss.trifan@gmail.com> (http://crissdev.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/crissdev/wp-down/issues"
+  },
+  "homepage": "https://github.com/crissdev/wp-down"
+}
