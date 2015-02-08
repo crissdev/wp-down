@@ -4,11 +4,15 @@
   "description": "Download WordPress releases",
   "main": "index.js",
   "dependencies": {
+    "commander": "^2.6.0",
     "download": "^3.3.0"
   },
   "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "wp-down": "cli.js"
   },
   "repository": {
     "type": "git",

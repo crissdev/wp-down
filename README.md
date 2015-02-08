@@ -22,6 +22,20 @@ wpd('4.1', function(err, files, stream) {
 });
 ```
 
+## CLI
+
+```sh
+# Download the latest release and extract it
+$ wp-down 
+
+# Download 4.1 release but don't extract contents of the archive
+$ wp-down --release=4.1 --extract=no
+
+# download 4.1 release, in zip format and extract the contents of 
+# the archive in ./wp directory
+$ wp-down --release=4.1 --extract=yes --format=zip --out=./wp
+```
+
 ## API
 
 wp-down(options, callback)
