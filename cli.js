@@ -13,7 +13,7 @@ function yesNo(value) {
 
 program.version('0.1.0')
   .usage('[options]')
-  .option('-r, --release [release]', 'WordPress release to download. Default to 4.1', String, '4.1')
+  .option('-r, --release [release]', 'WordPress release to download. Default to 4.1.1', String, '4.1.1')
   .option('-f, --format [format]', 'Format of the downloaded archive. Default to zip', String, 'zip')
   .option('-x, --extract [yes|no]', 'Whether or not to extract the archive. Default to yes', yesNo, true)
   .option('-o, --out [dir]', 'Directory where to download/extract the archive. Default to ./ or wordpress-{version}')

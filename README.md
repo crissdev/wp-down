@@ -12,7 +12,7 @@ $ npm install --save wp-down
 
 ```js
 var wpd = require('wp-down');
-wpd('4.1', function(err, files, stream) {
+wpd('4.1.1', function(err, files, stream) {
   if (err) {
     console.log('Download failed', err.message);
   }
@@ -28,12 +28,12 @@ wpd('4.1', function(err, files, stream) {
 # Download the latest release and extract it
 $ wp-down 
 
-# Download 4.1 release but don't extract contents of the archive
-$ wp-down --release=4.1 --extract=no
+# Download 4.1.1 release but don't extract contents of the archive
+$ wp-down --release=4.1.1 --extract=no
 
-# download 4.1 release, in zip format and extract the contents of 
+# download 4.1.1 release, in zip format and extract the contents of 
 # the archive in ./wp directory
-$ wp-down --release=4.1 --extract=yes --format=zip --out=./wp
+$ wp-down --release=4.1.1 --extract=yes --format=zip --out=./wp
 ```
 
 ## API
@@ -51,7 +51,7 @@ When this argument is a String, it specifies which WordPress version to download
 
 Type: `String`
 
-Default: `4.1`
+Default: `4.1.1`
 
 Which WordPress version to download. By default it will be the latest version
 
@@ -71,7 +71,7 @@ Type: `Boolean`
 
 Default: `true`
 
-When set to true, it will extract the contents of the Wordpress release archive.
+When set to true, it will extract the contents of the WordPress release archive.
 
 
 #### options.dir
