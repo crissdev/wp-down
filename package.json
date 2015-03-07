@@ -5,7 +5,7 @@
   "main": "index.js",
   "dependencies": {
     "commander": "^2.6.0",
-    "download": "^3.3.0"
+    "download": "^4.0.1"
   },
   "devDependencies": {},
   "scripts": {

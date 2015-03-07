@@ -84,11 +84,11 @@ The directory where to extract the WordPress release archive. The value `{versio
 a version based name.
 
 
-### callback(err, files, stream)
+### callback(err, files)
 
 Type: `Function`
 
-The callback will return an array of vinyl `files` in files and a Readable/Writable stream in `stream`.
+The callback will return an array of vinyl `files` in files.
 
 
 
