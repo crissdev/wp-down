@@ -19,9 +19,10 @@ module.exports = function(options, callback) {
   }
   if (typeof options.extract === 'undefined') {
     options.extract = true;
+  }
+  if (options.extract) {
     options.dir = (options.dir || './wordpress-{version}').replace('{version}', options.version);
   }
-
   var archiveUrl = RELEASE_BASE_URL + options.version + '.' + options.format;
   var download = new Download({extract: !!options.extract, strip: 1 }).get(archiveUrl);
 
