@@ -1,4 +1,7 @@
 # wp-down
+
+[![npm version](https://badge.fury.io/js/wp-down.svg)](http://badge.fury.io/js/wp-down)
+
 > Download WordPress releases
 
 
