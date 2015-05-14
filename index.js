@@ -12,7 +12,7 @@ module.exports = function(options, callback) {
   }
 
   if (!options.version) {
-    options.version = '4.2';
+    options.version = '4.2.2';
   }
   if (!options.format) {
     options.format = 'zip';
