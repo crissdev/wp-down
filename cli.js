@@ -11,7 +11,7 @@ function yesNo(value) {
   return !!(value === 'y' || value === 'Y' || value === 'yes');
 }
 
-program.version('1.0.2')
+program.version('1.0.3')
   .usage('[options]')
   .option('-r, --release [release]', 'WordPress release to download. Default to 4.2.2', String, '4.2.2')
   .option('-f, --format [format]', 'Format of the downloaded archive. Default to zip', String, 'zip')
