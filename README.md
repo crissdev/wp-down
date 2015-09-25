@@ -31,12 +31,12 @@ wpd('4.2.2', function(err, files) {
 # Download the latest release and extract it
 $ wp-down 
 
-# Download 4.2.2 release but don't extract contents of the archive
-$ wp-down --release=4.2.2 --extract=no
+# Download 4.3.1 release but don't extract contents of the archive
+$ wp-down --release=4.3.1 --extract=no
 
-# download 4.2.2 release, in zip format and extract the contents of 
+# download 4.3.1 release, in zip format and extract the contents of 
 # the archive in ./wp directory
-$ wp-down --release=4.2.2 --extract=yes --format=zip --out=./wp
+$ wp-down --release=4.3.1 --extract=yes --format=zip --out=./wp
 ```
 
 ## API
@@ -54,9 +54,10 @@ When this argument is a String, it specifies which WordPress version to download
 
 Type: `String`
 
-Default: `4.2.2`
+Default: `Latest version available`
 
-Which WordPress version to download. By default it will be the latest version
+Which WordPress version to download. By default it will be the latest version detected from the latest tag available in
+the Github repository https://github.com/WordPress/WordPress/tags.
 
 
 #### options.format
