@@ -22,11 +22,14 @@ function getLatestVersion(requestedVersion, cb) {
 }
 
 module.exports = function(options, callback) {
-  options = options || {};
-
   if (typeof options === 'string') {
     options = {version: options};
   }
+  else if (typeof options === 'function') {
+    callback = options;
+    options = null;
+  }
+  options = options || {};
 
   getLatestVersion(options.version, function(_, version) {
     if (!version) {
