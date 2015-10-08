@@ -15,7 +15,7 @@ $ npm install --save wp-down
 
 ```js
 var wpd = require('wp-down');
-wpd('4.2.2', function(err, files) {
+wpd(function(err) {
   if (err) {
     console.log('Download failed', err.message);
   }
