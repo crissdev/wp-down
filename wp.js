@@ -3,7 +3,7 @@
 var Download = require('download');
 
 
-module.exports.TagsEndpoint = 'https://api.github.com/repos/wordpress/wordpress/tags6';
+module.exports.TagsEndpoint = 'https://api.github.com/repos/wordpress/wordpress/tags';
 
 module.exports.getLatestVersion = (function() {
   var _latestVersion;
